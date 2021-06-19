@@ -1,0 +1,29 @@
+.SidebarOptions{
+    display:flex;
+    flex-direction:column;
+}
+.SidebarOption{
+    display:flex;
+    align-items: center;
+    padding: 10px;
+    cursor:pointer;
+}
+.SidebarOption > img{
+    height:40px;
+    width:40px;
+    margin:10px;
+    border-radius:5px;
+}
+.SidebarOption:hover{
+    background-color:lightgray;
+}
+.SidebarOption > p{
+    color:gray;
+     font-weight: 400;
+    margin:10px;
+    border-radius:5px;
+}
+.SidebarOption > .MuiSvgIcon-root{
+    font-weight:400;
+    margin-left:15px;
+}
